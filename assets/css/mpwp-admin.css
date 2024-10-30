@@ -1,0 +1,11 @@
+#woocommerce_mpwp_payment_gateway+.form-table {
+    display: none;
+}
+
+.mpwp-custom-payment_gateway .titledesc {
+    display: none;
+}
+
+.mpwp-custom-payment_gateway tr[valign="top"] {
+    display: inline-block;
+}

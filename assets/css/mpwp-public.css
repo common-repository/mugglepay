@@ -1,0 +1,35 @@
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_muggle_pay_methods,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_usdt_methods,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_usdc_methods,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_eth_methods {
+    display: flex;
+    align-items: center;
+}
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_muggle_pay_methods label,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_usdt_methods label,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_usdc_methods label,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_eth_methods label {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: unset;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_muggle_pay_methods label img,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_usdt_methods label img,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_usdc_methods label img,
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_eth_methods label img {
+    order: -1;
+    margin-right: 5px;
+    margin-left: unset;
+}
+
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_muggle_pay_methods label::before, 
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_usdt_methods label::before, 
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_usdc_methods label::before, 
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_eth_methods label::before,
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_muggle_pay_methods label img, 
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_usdt_methods label img, 
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_usdc_methods label img, 
+.theme-storefront .woocommerce-checkout #payment ul.payment_methods li.payment_method_eth_methods label img {
+  order: -1;
+}
